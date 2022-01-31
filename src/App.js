@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const CLIENT_ID = "e3de7f0e9b3b4375b1406400d76dd66c";
-const CLIENT_SECRET = "5c78dba0a50b4ea680e1153cfacf30aa";
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
+const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
 
 const App = () => {
   const [userToken, setUserToken] = useState();
