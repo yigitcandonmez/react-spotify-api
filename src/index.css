@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+#logo {
+  width: 200px;
+  height: 63px;
+}
+
+.fullW {
+  width: 100%;
+}
+
+.fullH {
+  height: 100%;
+}
+
+.login__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
